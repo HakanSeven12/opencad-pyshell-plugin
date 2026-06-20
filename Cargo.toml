@@ -1,0 +1,41 @@
+[workspace]
+
+[package]
+name = "pyshell-plugin"
+version = "0.1.0"
+edition = "2021"
+description = "PYSHELL command plugin for OpenCADStudio - Interactive Python shell with document access"
+license = "GPL-3.0-only"
+authors = ["OpenCADStudio Contributors"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# Plugin API - stable contract with host
+ocs_plugin_api = { git = "https://github.com/HakanSeven12/OpenCADStudio", features = ["host"] }
+
+# Python bindings with extension-module feature (KEY for Option B+)
+pyo3 = { version = "0.21", features = ["extension-module"] }
+
+# CAD library - must match host's acadrust version
+acadrust = { version = "0.3.4" }
+
+# Optional: logging support
+log = "0.4"
+
+# Patch to ensure acadrust version matches host
+# This is critical for binary compatibility
+[patch.crates-io]
+acadrust = { git = "https://github.com/HakanSeven12/acadrust", branch = "main" }
+
+[profile.release]
+opt-level = 2
+lto = "thin"
+# Reduce binary size for distribution
+strip = true
+
+[profile.release-with-debug]
+inherits = "release"
+debug = true
+strip = false

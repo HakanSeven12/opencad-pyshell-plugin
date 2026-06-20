@@ -1,0 +1,13 @@
+[plugin]
+id = "opencad.pyshell"
+name = "Python Shell"
+version = "0.1.0"
+description = "Interactive Python shell with document access for OpenCADStudio"
+author = "OpenCADStudio Contributors"
+license = "GPL-3.0-only"
+
+[opencad]
+api_version = 2
+ribbon_order = 100
+command_prefixes = ["PY"]
+xdata_apps = ["PYSHELL_RECORD"]
