@@ -1,0 +1,7 @@
+# PyO3 with the `extension-module` feature does not link libpython; the Python
+# symbols are resolved at runtime by the host interpreter. macOS's linker
+# rejects unresolved symbols by default, so allow dynamic lookup (the same flag
+# maturin/setuptools-rust pass for Python extension modules). Linux and Windows
+# do not need this.
+[target.'cfg(target_os = "macos")']
+rustflags = ["-C", "link-arg=-undefined", "-C", "link-arg=dynamic_lookup"]
