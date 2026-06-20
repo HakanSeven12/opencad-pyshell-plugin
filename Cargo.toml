@@ -15,8 +15,11 @@ crate-type = ["cdylib"]
 # Plugin API - stable contract with host
 ocs_plugin_api = { git = "https://github.com/HakanSeven12/OpenCADStudio", features = ["host"] }
 
-# Python bindings with extension-module feature (KEY for Option B+)
-pyo3 = { version = "0.21", features = ["extension-module"] }
+# Python bindings. The plugin is loaded by the OCS host (not by a CPython
+# interpreter), so it must embed and initialize its own Python — use
+# `auto-initialize` (links libpython) instead of `extension-module` (which
+# leaves Python symbols like PyObject_Str unresolved for a host to provide).
+pyo3 = { version = "0.21", features = ["auto-initialize"] }
 
 # CAD library - must match host's acadrust version
 acadrust = { version = "0.3.4" }

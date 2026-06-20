@@ -1,0 +1,10 @@
+/home/hakanseven/Downloads/pyshell-plugin/pyshell-plugin/target/debug/deps/ocs_plugin_api-93e54246a627831b.d: /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/lib.rs /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/manifest.rs /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/ribbon.rs /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/host.rs
+
+/home/hakanseven/Downloads/pyshell-plugin/pyshell-plugin/target/debug/deps/libocs_plugin_api-93e54246a627831b.rlib: /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/lib.rs /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/manifest.rs /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/ribbon.rs /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/host.rs
+
+/home/hakanseven/Downloads/pyshell-plugin/pyshell-plugin/target/debug/deps/libocs_plugin_api-93e54246a627831b.rmeta: /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/lib.rs /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/manifest.rs /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/ribbon.rs /home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/host.rs
+
+/home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/lib.rs:
+/home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/manifest.rs:
+/home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/ribbon.rs:
+/home/hakanseven/.cargo/git/checkouts/opencadstudio-ecea3a436bea2706/e1d128c/crates/ocs_plugin_api/src/host.rs:
